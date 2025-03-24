@@ -1,57 +1,487 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-    <title>Para Meu Amor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Font+Awesome+5+Free&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Voe Justo</title>
 </head>
+
 <body>
-    <div id="senha-container">
-        <h2>Digite a senha para acessar:</h2>
-        <input type="password" id="senha" placeholder="Digite a senha">
-        <button onclick="verificarSenha()">Entrar</button>
-    </div>
-    
-    <div id="conteudo" class="container" style="display: none;">
-		<div>
-			<h1>Feliz Dia das Mulheres, Meu Amor!</h1>
-			<div class="cont">
-				<div class="card">
-					<p>Você é incrível e merece todo o amor do mundo. Obrigado por ser tão especial!</p>
-					<h2>"Meu coração é seu, hoje e sempre." ❤️</h2>
-					<p>"Desde que te conheci, cada momento ao seu lado se tornou uma lembrança preciosa. Você é a razão do meu sorriso e do brilho nos meus olhos. Te amo infinitamente!"</p>
+	<div  class="visible home" id="home">
+		<nav class="desktop">
+			<img id="Logo" class="Logo visible desktop" src="images/LOGO DEITADA.png" alt="Logo">
+			<div id="div1" class="nav-container visible div1">
+				<a onclick="scrollToSection('PerguntasFrequentes')" class="nav-a">Perguntas frequentes</a>
+				<a onclick="scrollToSection('SobreNos')" class="nav-a">Sobre nós</a>
+			</div>
+			<div id="div2" class="hidden div2 desktop">
+				<p class="nav-p desktop">Garanta seus direitos como passageiro aéreo com nossa consultoria gratuita,<br> podendo ganhar até <b>R$10 mil reais</b></p>
+				<button class="bnt-verif pulse desktop">
+					<span>Resolver Meu Caso</span>
+				</button>
+			</div>
+		</nav>
+		<span class="zap pulse desktop">
+			<a href="https://wa.me/5531993008764?text=Ol%C3%A1%20tenho%20uma%20duvida!">
+				<i class="fab fa-whatsapp"></i>
+			</a>
+		</span>
+		<span class="space"></span>
+		<section id="section">
+			<img class="img-fundo" src="images/v12_203.png" alt="img fundo">
+			<div class="container -coluna -rigth">
+				<h1>TEVE PROBLEMAS COM SEU VOO?</h1>
+				<p class="p-left-alin">Garanta seus direitos como passageiro aéreo com nossa consultoria gratuita, podendo ganhar até <b>R$10 mil reais</b></p>
+				<button class="bnt-verif">
+					<span >Resolver Meu Caso</span>
+				</button>
+			</div>
+		</section>
+		<section>
+			<div class="container -claro">
+				<div class="container -alin -left">
+					<a href="">
+						<div class="card">
+							<i aria-hidden="true" class="fas"></i>
+							<span class="card-texto">CANCELAMENTO DO VOO</span>
+						</div>
+					</a>
+					<a href="">	
+						<div class="card">
+							<i class="fas"></i>
+							<span class="card-texto">ATRASO DO VOO</span>
+						</div>
+					</a>
+					<a href="">
+						<div class="card">
+							<i class="fas"></i>
+							<span class="card-texto">REEMBOLSO DA PASSAGEM</span>
+						</div>
+					</a>
 				</div>
-				<div class="containter_imgs">
-					<img src="midias/Foto 1.jpg" alt="Foto do casal">
-					<img src="midias/Foto 2.jpg" alt="Foto do casal">
-					<img src="midias/Foto 3.jpg" alt="Foto do casal">
+				<div class="container -alin -rigth">
+					<a href="">
+						<div class="card">
+							<i class="fas"></i>
+							<span class="card-texto">CONEXÃO PERDIDA</span>
+						</div>
+					</a>
+					<a href="">
+						<div class="card">
+							<i class="fas"></i>
+							<span class="card-texto">OVERBOOKING DO VOO</span>
+						</div>
+					</a>
+					<a href="">
+						<div class="card">
+							<i class="fas"></i>
+							<span class="card-texto">EXTRAVIO DE BAGAGEM</span>
+						</div>
+					</a>
 				</div>
 			</div>
+		</section>
+		<section>
+			<div class="container -coluna">
+				<h2>VOCÊ MUITO MAIS PROTEGIDO E ASSISTIDO</h2>
+				<ul>
+					<li class="desktop">
+						<i class="fas verif-icon"></i>
+						<span>Processo online, simples, rápido e eficaz</span>
+					</li>
+					<li class="desktop">
+						<i class="fas verif-icon"></i>
+						<span>Sem risco! Você só paga após o êxito da ação</span>
+					</li>
+					<li class="desktop">
+						<i class="fas verif-icon"></i>
+						<span>Profissionais especializados</span>
+					</li>
+					<li class="desktop">
+						<i class="fas verif-icon"></i>
+						<span>Te mantemos atualizado e tiramos dúvidas durante o processo</span>
+					</li>
+					<li class="desktop">
+						<i class="fas verif-icon"></i>
+						<span>Seus dados protegidos 100% do tempo</span>
+					</li>
+				</ul>
+				<button class="bnt-verif">
+					<span >Resolver Meu Caso</span>
+				</button>
+			</div>
+		</section>
+		<section class="background -mapa">
+			<div class="container">
+				<div class="col">
+					<h2 >APENAS 4 PASSOS SIMPLES</h2>
+					<span class="texto -negrito">1. Descubra seus direitos</span>
+					<span class="texto">Grátis, fácil e seguro.</span>
+					<span class="texto -negrito">2. Envie seu caso</span>
+					<span class="texto">Informe o seu problema e envie os documentos necessários.</span>
+					<span class="texto -negrito">3. Nós resolvemos tudo</span>
+					<span class="texto">Montamos o seu processo e te atualizamos a cada avanço.</span>
+					<span class="texto -negrito">4. O caso é finalizado!</span>
+					<span class="texto">Você recebe sua indenização ou não pague nada.</span>
+				</div>
+				<div class="col">
+					<button class="bnt-verif -big desktop">
+						<span >Resolver Meu Caso</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<h2>Sobre Nos!</h2>
+		<section id="SobreNos">
+			<div class="container -alin -center" >
+				<div class="card-container-informativos ">
+					<span class="card-titulo">O que fazemos?</span>
+					<p class="card-comentario">Avaliamos o caso e
+						conectamos o cliente
+						com o melhor escritório
+						de advocacia para
+						resolver sua
+						necessidade da forma
+						mais ágil e proveitosa.</p>
+				</div>
+				<div class="card-container-informativos ">
+					<span class="card-titulo">Por que fazemos?</span>
+					<p class="card-comentario">Acreditamos que muitos
+						passageiros aéreos
+						lesados não tenham
+						conhecimento de seus
+						direitos e não saibam
+						como buscar
+						compensações de forma
+						judicial ou
+						administrativa. Estamos
+						aqui exatamente para
+						ajudá-los a resolver esse
+						problema.</p>
+				</div>
+				<div class="card-container-informativos ">
+					<span class="card-titulo">Como fazemos?</span>
+					<p class="card-comentario">Oferecemos consultoria
+						gratuita com nossos
+						consultores, com
+						atendimento 100%
+						humanizado, para
+						compreender as
+						necessidades e desafios
+						de cada passageiro.
+						Após uma avaliação
+						minuciosa,
+						recomendamos o
+						escritório de advocacia
+						parceiro mais qualificado
+						para atender às
+						demandas específicas
+						desse cliente.</p>
+				</div>
+				<div class="card-container-informativos ">
+					<span class="card-titulo">Como somos
+						remunerados?</span>
+					<p class="card-comentario">Cobramos nossa
+						comissão contratada
+						apenas quando o nosso
+						cliente recebe sua
+						indenização judicial ou
+						extrajudicial.</p>
+					</div>
+				</div>
+		</section>
+		<section class="background -torre" id="PerguntasFrequentes" >
+			<div class="container -coluna">
+				<h2>PERGUNTAS FREQUENTES!</h2>
+				<ul class="-perguntas">
+					<li class="container -coluna -quest" onclick="toggleAnswer(this)">
+						<span><h4>O que devo fazer se minha companhia aérea cancelar meu voo sem aviso prévio?</h4><i class='far fa-arrow-alt-circle-down'></i></span>
+						<p class="answear desktop -desactive">
+							Se a sua companhia aérea cancelar seu voo sem aviso prévio, você tem direito a reembolso, remarcação ou alternativas de voo. Nós somos a solução para garantir que seus direitos sejam cumpridos. Entre em contato conosco para que possamos tomar as medidas legais necessárias e assegurar que você receba a compensação que merece.
+						</p>
+					</li>
+					<li class="container -coluna -quest" onclick="toggleAnswer(this)">
+						<span>
+							<h4>Posso ser reembolsado se meu voo for atrasado por mais de 4 horas?</h4>
+							<i class='far fa-arrow-alt-circle-down'></i>
+						</span>
+						<p class="answear desktop -desactive">
+							Sim, em caso de atraso superior a 4 horas, a companhia aérea deve reembolsá-lo ou oferecer remarcação. Se você não estiver recebendo a assistência adequada, nós somos a solução para resolver esse problema. Podemos agir legalmente para garantir que seus direitos sejam respeitados e você seja devidamente compensado.
+						</p>
+					</li>
+					<li class="container -coluna -quest" onclick="toggleAnswer(this)">
+						<span><h4>Quais são meus direitos se eu for impedido de embarcar por falta de documentos?
+						</h4><i class='far fa-arrow-alt-circle-down'></i></span>
+						<p class="answear desktop -desactive">
+							Se você for impedido de embarcar, seja por erro da companhia ou falha sua, sabemos como resolver a situação. Se for responsabilidade da companhia aérea, podemos ajudá-lo a buscar compensações. Se for sua falha, orientamos sobre os melhores passos para minimizar prejuízos. Nossa equipe está pronta para lhe dar a solução jurídica necessária.
+					</li>
+					<li class="container -coluna -quest" onclick="toggleAnswer(this)">
+						<span><h4>Quais são meus direitos se minha bagagem for extraviada durante uma viagem?</h4><i class='far fa-arrow-alt-circle-down'></i></span>
+						<p class="answear desktop -desactive">
+							Em caso de extravio de bagagem, a companhia aérea deve fornecer itens essenciais e reembolsar suas despesas. Se a bagagem não for localizada, podemos agir em seu nome para garantir a compensação justa. Com nossa ajuda, você terá a segurança de que seus direitos serão totalmente respeitados.
+						</p>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+		<section>
+			<div class="container -claro -coluna">
+				<h2>A OPINIÃO DE QUEM NOS CONTACTA</h2>
+				<p >Veja o que dizem as pessoas que usam nossos serviços.</p>
+				<div class="container -cards">
+					<div class="card-container">
+						<img src="../images/Ana-Ribeiro.png" alt="Ft Perfil" class="card-perfil">
+						<span class="card-titulo">Ana Ribeiro</span>
+						<span class="card-subtitulo">Belo Horizonte, MG</span>
+						<ul class="card-list-stars">
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+						</ul>
+						<p class="card-comentario">Uma empresa séria, focada em oferecer soluções práticas e eficientes para os problemas do dia a dia. Sempre busca intermediar e resolver qualquer impasse da melhor forma possível.</p>
+					</div>
+					<div class="card-container">
+						<img src="../images/Mariana-Lopes.png" alt="Ft Perfil" class='card-perfil'>
+						<span class="card-titulo">Mariana Lopes</span>
+						<span class="card-subtitulo">Florianópolis, SC</span>
+						<ul class="card-list-stars">
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+						</ul>
+						<p class="card-comentario">Ótimo atendimento! São atenciosos e sempre dispostos a esclarecer dúvidas. Iniciei meu processo recentemente, e até agora tudo tem ocorrido exatamente como foi explicado.</p>
+					</div>
+					<div class="card-container">
+						<img src="../images/Carla-Oliveira.png" alt="Ft Perfil" class="card-perfil">
+						<span class="card-titulo">Carla Oliveira</span>
+						<span class="card-subtitulo">Ouro Preto, MG</span>
+						<ul class="card-list-stars">
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+								<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+							</svg>
+							</li>
+						</ul>
+						<p class="card-comentario">Estava muito frustrada com a situação que enfrentei na minha viagem, mas encontrei essa empresa pela Internet e decidi entrar em contato. Em poucos dias, fui atendida e orientada de forma impecável sobre os meus direitos. O atendimento é excelente, estão de parabéns!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container -claro -coluna">
+				
+				<h2>TEM DÚVIDAS?</h2>
+				<p>Retorne à seção de Perguntas Frequentes <br>para esclarecer suas dúvidas <br>ou <br> envie sua pergunta diretamente para nossa equipe.</p>
+				<a class="bnt-claro" onclick="scrollToSection('PrincipaisPerguntas')">
+					<span >Ver perguntas frequentes</span>
+				</a>
+				<a class="bnt-claro" href="https://wa.me/5531993008764?text=Ol%C3%A1%20tenho%20uma%20duvida!">
+					<span>Fale conosco</span>
+				</a>
+			</div>
+		</section>
+	</div>
+	<div class="hidden forms" id="forms">
+		<div>
+			<div>
+			</div>
+			<h2>Para que possamos proceder nos de uma descriçao sobre o seu occorrido</h2>
+			<p>Não deixe sua dúvida atrapalhar sua viagem. Nós cuidamos disso para você</p>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciFOpn2k6fMT-Yt181LqnyNfLcDsRSLAhuJnn54VHMF9VkIQ/viewform?embedded=true" width="640" height="1557" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+			<p>Responda ate que apareça a mensagem de "Sua resposta foi registrada."</p>
+			<button class="bnt-verif">Retonar a home</button>
 		</div>
-		<div class="cont_vid">
-			<video controls>
-				<source src="midias/Video Luiz.mp4" type="video/mp4">
-				Seu navegador não suporta o elemento de vídeo.
-			</video>
-			<h2>Tentei encontrar flores e não consegui</h2>
-			<p>Então ca estão minha flores artificiais que estarão aqui eternizadas tal qual meu amor por ti</p>
-			<img src="midias/Buque.jpg">
-		</div>
-    </div>
-    
-    <script>
-        function verificarSenha() {
-            const senhaCorreta = "te amo"; // Defina a senha desejada
-            let senhaDigitada = document.getElementById("senha").value;
-            
-            if (senhaDigitada === senhaCorreta) {
-                document.getElementById("senha-container").style.display = "none";
-                document.getElementById("conteudo").style.display = "block";
-            } else {
-                alert("Senha incorreta! Tente novamente.");
-            }
+	</div>
+	<!-- codigo para animação da caixa de perguntas -->
+	<script>
+		function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: "smooth" });
         }
+		function toggleAnswer(element) {
+			// Seleciona o próximo elemento irmão (sibling) do elemento que chamou a função
+			const section = element.lastElementChild;
+			const element_icon = element.firstElementChild.lastElementChild;
+
+			// Verifica se o elemento existe e altera o estilo
+			
+			if (section.style.height === '0px' || !section.style.height) {
+				section.style.height = (section.scrollHeight + 10) + 'px'; // Altura exata do conteúdo
+				section.style.opacity = 1;
+			} else {
+				section.style.height = '0px';
+				section.style.opacity = 0;
+			}
+			if (element_icon) {
+				if (element_icon.classList.contains('fa-arrow-alt-circle-down')) {
+					element_icon.classList.add('fa-arrow-alt-circle-up');
+					element_icon.classList.remove('fa-arrow-alt-circle-down')
+				} else {
+					element_icon.classList.remove('fa-arrow-alt-circle-up');
+					element_icon.classList.add('fa-arrow-alt-circle-down');
+				}
+			}
+		}
     </script>
+	<!-- Codigo para permitir a troca de divs na barra de navegação -->
+	<script>
+		let hasToggled = false; // Flag para garantir que a troca aconteça apenas uma vez
+			function checkScrollPosition() {
+				const section = document.getElementById('section');
+				const div1 = document.getElementById('div1');
+				const div2 = document.getElementById('div2');
+				const logo = document.getElementById('Logo');
+
+				// Posição da seção no documento
+				const sectionPosition = section.getBoundingClientRect().top;
+
+				// Verifica se a seção saiu do viewport
+				if (sectionPosition <= 0 && !hasToggled) {
+					// Alterna as divs quando a seção sair do viewport
+					if (div1.classList.contains('visible')) {
+					div1.classList.remove('visible');
+					div1.classList.add('hidden');
+					div2.classList.remove('hidden');
+					div2.classList.add('visible');
+					logo.classList.remove('visible');
+					logo.classList.add('hidden');
+				}
+				hasToggled = true; // Marca como alternado para evitar repetir a troca
+				} else if (sectionPosition > 0 && hasToggled) {
+					// Reseta a flag quando a seção voltar ao viewport
+					div1.classList.remove('hidden');
+					div1.classList.add('visible');
+					div2.classList.remove('visible');
+					div2.classList.add('hidden');
+					logo.classList.remove('hidden');
+					logo.classList.add('visible');
+					hasToggled = false; // Permite a troca novamente quando a seção voltar ao viewport
+					}
+				}
+		// Evento de rolagem
+		window.addEventListener('scroll', checkScrollPosition);
+	</script>
+	<!-- Codigo para realizar a troca de tela de home para formulario -->
+	<script>
+		function changehome(){
+			const home = document.getElementById("home")
+			const forms = document.getElementById("forms")
+			
+			if (home) {
+				if (home.classList.contains('visible')) {
+					forms.classList.add('visible');
+					forms.classList.remove('hidden')
+					
+					home.classList.remove('visible')
+					home.classList.add('hidden');
+				} else {
+					forms.classList.add('hidden');
+					forms.classList.remove('visible')
+					
+					home.classList.remove('hidden')
+					home.classList.add('visible');
+				}
+			}
+		}
+		const buttons = document.querySelectorAll('.bnt-verif');
+
+    	// Adiciona um evento de clique a todos os botões
+		/* alert(`Você clicou no ${button.textContent}!`); */
+
+		buttons.forEach(button => {
+			button.addEventListener('click',changehome);
+		});
+
+		function changeClass(element){
+			element.classList.remove('desktop');
+            element.classList.add('mobile');
+		}
+
+
+		function applyMobileStyles() {
+			const elements = document.querySelectorAll('.desktop');
+			
+            // Verifica se o site está sendo acessado de um dispositivo móvel
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+				elements.forEach(elements => {changeClass(elements);});
+			}
+        }
+
+        // Chama a função assim que o DOM for carregado
+        document.addEventListener('DOMContentLoaded', applyMobileStyles);
+		</script>
 </body>
+
 </html>
