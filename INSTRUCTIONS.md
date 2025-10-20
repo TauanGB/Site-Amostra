@@ -5,7 +5,7 @@
 ### 1. **Configuração Inicial**
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/Site-Amostra.git
+git clone https://github.com/tauangb/Site-Amostra.git
 cd Site-Amostra
 
 # Adicione suas alterações
@@ -21,7 +21,7 @@ git push origin main
 4. Clique em `Save`
 
 ### 3. **Acessar a Página**
-- **URL**: `https://SEU-USUARIO.github.io/Site-Amostra/`
+- **URL**: `https://tauangb.github.io/Site-Amostra/`
 - **Aguarde**: 2-5 minutos para o deploy
 
 ## 📁 Arquivos Importantes
