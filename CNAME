@@ -1,0 +1,10 @@
+# Este arquivo é usado para configurar um domínio personalizado no GitHub Pages
+# Se você quiser usar um domínio personalizado, substitua o conteúdo por seu domínio
+# Exemplo: meusite.com
+# 
+# Para usar este arquivo:
+# 1. Substitua o conteúdo por seu domínio
+# 2. Configure o DNS do seu domínio para apontar para o GitHub Pages
+# 3. Aguarde a propagação do DNS
+#
+# Para remover o domínio personalizado, simplesmente delete este arquivo

@@ -1,0 +1,32 @@
+{
+  "name": "escuta-crm-mvp",
+  "version": "1.0.0",
+  "description": "MVP acadêmico para análise de mensagens de clientes com LGPD by design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy via GitHub Pages'"
+  },
+  "keywords": [
+    "crm",
+    "analytics",
+    "sentiment-analysis",
+    "academic",
+    "lgpd",
+    "mvp"
+  ],
+  "author": "Escuta CRM Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU-USUARIO/Site-Amostra.git"
+  },
+  "homepage": "https://SEU-USUARIO.github.io/Site-Amostra/",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

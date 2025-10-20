@@ -1,0 +1,33 @@
+# GitHub Pages Configuration
+title: Escuta CRM — MVP Acadêmico
+description: MVP acadêmico para análise de mensagens de clientes com LGPD by design
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .nojekyll
+  - .github/
+
+# Include only necessary files
+include:
+  - _redirects
+
+# Collections
+collections:
+  - pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

@@ -1,0 +1,54 @@
+# GitHub Pages Configuration
+# Este arquivo configura o GitHub Pages para o projeto
+
+# Configurações básicas
+title: "Escuta CRM — MVP Acadêmico"
+description: "MVP acadêmico para análise de mensagens de clientes com LGPD by design"
+baseurl: ""
+url: ""
+
+# Configurações de build
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Arquivos a serem excluídos do processamento
+exclude:
+  - README.md
+  - DEPLOY.md
+  - DEVELOPMENT.md
+  - .gitignore
+  - .nojekyll
+  - .github/
+  - package.json
+  - CNAME
+
+# Arquivos a serem incluídos
+include:
+  - _redirects
+
+# Configurações de coleções
+collections:
+  - pages
+
+# Configurações padrão
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Configurações de plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configurações de SEO
+seo:
+  type: "WebSite"
+  name: "Escuta CRM — MVP Acadêmico"
+  description: "MVP acadêmico para análise de mensagens de clientes com LGPD by design"
+  url: "https://SEU-USUARIO.github.io/Site-Amostra/"
+  image: "https://SEU-USUARIO.github.io/Site-Amostra/images/LOGO.png"
