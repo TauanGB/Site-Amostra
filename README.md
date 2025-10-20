@@ -61,7 +61,7 @@ Site-Amostra/
 
 Este projeto está configurado para funcionar no GitHub Pages. Para acessar:
 
-1. **URL do GitHub Pages**: `https://[seu-usuario].github.io/Site-Amostra/`
+1. **URL do GitHub Pages**: `https://tauangb.github.io/Site-Amostra/`
 2. **Branch**: `main` (configurado para deploy automático)
 
 ### 📝 Como Fazer Deploy
